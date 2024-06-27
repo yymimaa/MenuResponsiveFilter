@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dessert Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bungkus">
+        <h1> DESSERT </h1>
+        <p>all your favorite dessert all in here</p>
+        <div id="pencarian">
+            <input type="search" id="searching" placeholder="search name of product...">
+            <button id="search">Search</button>
+        </div>
+        <div id="tombol">
+            <button class="button-value" onclick="filterProduct('all')">All</button>
+            <button class="button-value" onclick="filterProduct('Cake')">Cake</button>
+            <button class="button-value" onclick="filterProduct('Icecream')">IceCream</button>
+            <button class="button-value" onclick="filterProduct('Pancake')">Pancake</button>
+            <button class="button-value" onclick="filterProduct('Pastry')">Pastry</button>
+        </div>
+        <div id="products"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
